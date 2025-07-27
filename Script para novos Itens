@@ -1,0 +1,10 @@
+function init(event) {
+    var item = event.getItem();
+
+    // Define o nome personalizado usando o método correto
+    item.setCustomName("§aPowerBoost Gram");
+
+    // Define a lore como array Java
+    var lore = Java.to(["§a§lPowerBoost incomum"], "java.lang.String[]");
+    item.setLore(lore);
+}
