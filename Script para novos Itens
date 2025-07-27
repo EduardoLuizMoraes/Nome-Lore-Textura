@@ -2,9 +2,12 @@ function init(event) {
     var item = event.getItem();
 
     // Define o nome personalizado usando o método correto
-    item.setCustomName("§aPowerBoost Gram");
+    item.setCustomName("§aAura de Gram");
 
     // Define a lore como array Java
-    var lore = Java.to(["§a§lPowerBoost incomum"], "java.lang.String[]");
+    var lore = Java.to(["§a§lRugido Vital : Um rugido espiritual", "§a§lrecupera 20% de suas forças."], "java.lang.String[]");
     item.setLore(lore);
+    
+    item.setTexture("customnpcs:textures/cache/PB_Incomum.png")
+    item.setColor("0xFFFFFF");
 }
