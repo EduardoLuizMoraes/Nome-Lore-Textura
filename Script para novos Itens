@@ -2,13 +2,13 @@ function init(event) {
     var item = event.getItem();
 
     // Define o nome personalizado usando o método correto
-    item.setCustomName("§aAura de Gram");
+    item.setCustomName("nome");
 
     // Define a lore como array Java
-    var lore = Java.to(["§a§lRugido Vital : Um rugido espiritual", "§a§lrecupera 20% de suas forças."], "java.lang.String[]");
+    var lore = Java.to(["linha 1", "linha 2"], "java.lang.String[]");
     item.setLore(lore);
     
-    item.setTexture("customnpcs:textures/cache/PB_Incomum.png")
+    item.setTexture("imagem qualquer")
     item.setColor("0xFFFFFF");
     item.setMaxStackSize(1);
 }
